@@ -231,12 +231,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7773954322376152868, guid: 592926d5eae5a4e4696717d86f227c20, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7773954322376152868, guid: 592926d5eae5a4e4696717d86f227c20, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 67380f146b895f942b51634efb84ee90, type: 2}
+      objectReference: {fileID: 9100000, guid: c22e799e392adbb4ab18fad364915db1, type: 2}
     - target: {fileID: 7773954322376152869, guid: 592926d5eae5a4e4696717d86f227c20, type: 3}
       propertyPath: flotar
       value: 
