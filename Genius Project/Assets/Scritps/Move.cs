@@ -19,9 +19,7 @@ public class Move : MonoBehaviour
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;
-
-
-
+   
 
     private bool Salto = false;
 
@@ -35,7 +33,7 @@ public class Move : MonoBehaviour
     private void Update()
     {
 
-       
+        
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
 
         if (Input.GetButtonDown("Jump"))
