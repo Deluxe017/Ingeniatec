@@ -8,16 +8,16 @@ public class GenioStatic : MonoBehaviour
     [SerializeField] private float frequency;
     [SerializeField] private float magnitude;
     [SerializeField] private Vector3 offset_Y;
-   // private Vector3 desirePosition;
+    private Vector3 desirePosition;
     #endregion
 
     private void Start()
     {
-        transform.position = transform.localPosition;
+        desirePosition = transform.localPosition;
     }
 
     private void Update()
     {
-        transform.localPosition = (transform.position + transform.up * (Mathf.Sin(Time.time * frequency) * magnitude) + offset_Y);
+        transform.localPosition = (desirePosition + transform.up * (Mathf.Sin(Time.time * frequency) * magnitude) + offset_Y);
     }
 }

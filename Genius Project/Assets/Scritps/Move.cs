@@ -19,12 +19,7 @@ public class Move : MonoBehaviour
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;
-
-
-    [SerializeField] private float frequency;
-    [SerializeField] private float magnitude;
-    [SerializeField] private Vector3 offset_Y;
-    private Vector3 desirePosition;
+   
 
 
     private bool Salto = false;
@@ -33,11 +28,12 @@ public class Move : MonoBehaviour
     private void Start()
     {
         rg2D = GetComponent<Rigidbody2D>();
-        desirePosition = transform.localPosition;
+        
+
     }
     private void Update()
     {
-        transform.localPosition = (desirePosition + transform.up * (Mathf.Sin(Time.time * frequency) * magnitude) + offset_Y);
+      
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
 
         if (Input.GetButtonDown("Jump"))
