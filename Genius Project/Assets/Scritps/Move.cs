@@ -23,6 +23,8 @@ public class Move : MonoBehaviour
     [SerializeField] private float _amplitud = 1;
     [SerializeField] private float _frecuencia = 0.1f;
 
+
+    public Animator Salto_A;
     private bool Salto = false;
 
 
