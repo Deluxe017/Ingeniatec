@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 40936d876d65397469fab6e5d9788528
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIMA GENIO_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3239
+        width: 1164
+        height: 1740
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e23a2bb66c607c48aa5a9c4d353e7f1
+      internalID: 433673798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_21
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 3261
+        width: 1595
+        height: 1762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d080575c38018884fb0b4ca37b8ab0e8
+      internalID: 109308750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_28
+      rect:
+        serializedVersion: 2
+        x: 9537
+        y: 3217
+        width: 1925
+        height: 1812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1a8ddc66c401c4095dfaae65fafd35
+      internalID: -943402313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 789
+        width: 2082
+        height: 1857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419062b4b1574414cb372a35839df829
+      internalID: 130153563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_30
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 705
+        width: 2407
+        height: 2075
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7935af410dab7740a2ca2939bf533d8
+      internalID: 2127880283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_31
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 722
+        width: 2071
+        height: 1868
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c931c76a2dd246745bec3a3a7b7e4813
+      internalID: 1127129408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_32
+      rect:
+        serializedVersion: 2
+        x: 7343
+        y: 772
+        width: 1309
+        height: 1941
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4998f680eaafe3419400d508aefed8e
+      internalID: 1859611755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_0
+      rect:
+        serializedVersion: 2
+        x: 4627
+        y: 3083
+        width: 2208
+        height: 2067
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede3e0c8b0cba374698324c25e70b6b1
+      internalID: -695973473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIMA GENIO_1
+      rect:
+        serializedVersion: 2
+        x: 6922
+        y: 3096
+        width: 2314
+        height: 2020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9259bfd5362255348949de2886aa8868
+      internalID: 961236672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ANIMA GENIO_7: -1934842516
+      ANIMA GENIO_5: -185030829
+      ANIMA GENIO_41: 606493222
+      ANIMA GENIO_42: 63730294
+      ANIMA GENIO_27: -305762873
+      ANIMA GENIO_40: 471276065
+      ANIMA GENIO_44: 1417196975
+      ANIMA GENIO_17: 450336712
+      ANIMA GENIO_13: 335115396
+      ANIMA GENIO_18: 1481989303
+      ANIMA GENIO_30: 2127880283
+      ANIMA GENIO_16: 625094414
+      ANIMA GENIO_26: 324283301
+      ANIMA GENIO_22: 723948041
+      ANIMA GENIO_20: 433673798
+      ANIMA GENIO_15: 367501493
+      ANIMA GENIO_3: 883116495
+      ANIMA GENIO_36: -1998735333
+      ANIMA GENIO_1: 961236672
+      ANIMA GENIO_23: 401090612
+      ANIMA GENIO_47: 1096676770
+      ANIMA GENIO_14: -1676520030
+      ANIMA GENIO_8: -529494637
+      ANIMA GENIO_39: 753291479
+      ANIMA GENIO_45: -352535422
+      ANIMA GENIO_9: -510767386
+      ANIMA GENIO_28: -943402313
+      ANIMA GENIO_0: -695973473
+      ANIMA GENIO_35: -1664519044
+      ANIMA GENIO_29: 130153563
+      ANIMA GENIO_12: -1997362142
+      ANIMA GENIO_2: 878780509
+      ANIMA GENIO_43: -1110764215
+      ANIMA GENIO_33: -737924607
+      ANIMA GENIO_46: 163041423
+      ANIMA GENIO_38: -1838250404
+      ANIMA GENIO_48: 1432299079
+      ANIMA GENIO_10: 1068236001
+      ANIMA GENIO_19: 351509885
+      ANIMA GENIO_6: 1268134760
+      ANIMA GENIO_4: 1620905898
+      ANIMA GENIO_37: 1883009427
+      ANIMA GENIO_21: 109308750
+      ANIMA GENIO_32: 1859611755
+      ANIMA GENIO_25: 1745901907
+      ANIMA GENIO_34: -1117631153
+      ANIMA GENIO_31: 1127129408
+      ANIMA GENIO_11: 1927004755
+      ANIMA GENIO_24: -1905847804
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
