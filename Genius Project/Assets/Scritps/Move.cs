@@ -20,8 +20,7 @@ public class Move : MonoBehaviour
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;
 
-    public Animator flotar;
-   
+
 
 
     private bool Salto = false;
@@ -36,7 +35,7 @@ public class Move : MonoBehaviour
     private void Update()
     {
 
-        flotar.SetBool("Flotar", true);
+       
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
 
         if (Input.GetButtonDown("Jump"))
