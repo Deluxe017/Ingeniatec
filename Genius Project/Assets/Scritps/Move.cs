@@ -23,21 +23,15 @@ public class Move : MonoBehaviour
     [SerializeField] private float _amplitud = 1;
     [SerializeField] private float _frecuencia = 0.1f;
 
-    private Vector3 posicion;
     private bool Salto = false;
 
 
     private void Start()
     {
         rg2D = GetComponent<Rigidbody2D>();
-        posicion = transform.position;
     }
     private void Update()
     {
-
-        /*float x = transform.position.x;
-        float y =  Mathf.Sin(Time.time * _frecuencia) * _amplitud;
-        transform.position = new Vector2(x, y);*/
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
 
         if (Input.GetButtonDown("Jump"))
