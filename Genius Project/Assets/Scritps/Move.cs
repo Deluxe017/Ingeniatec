@@ -20,6 +20,8 @@ public class Move : MonoBehaviour
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;
 
+    public AudioClip audioFX;
+
     private bool Salto = false;
 
 
@@ -34,6 +36,7 @@ public class Move : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             Salto = true;
+            AudioSource.PlayClipAtPoint(audioFX, gameObject.transform.position);
         }
     }
     private void FixedUpdate()
