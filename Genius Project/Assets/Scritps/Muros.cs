@@ -16,11 +16,11 @@ public class Muros : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        muros.SetActive(true);
+        muros.SetActive(false);
     }
 
     public void Activator()
     {
-        muros.SetActive(false);
+        muros.SetActive(true);
     }
 }

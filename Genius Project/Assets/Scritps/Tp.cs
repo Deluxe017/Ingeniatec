@@ -7,6 +7,6 @@ public class Tp : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Mine");
+        SceneManager.LoadScene("Nivel2");
     }
 }
