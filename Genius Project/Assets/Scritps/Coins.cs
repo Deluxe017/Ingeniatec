@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class Coins : MonoBehaviour
 {
+
+    public AudioClip audioFX;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
-        {
-            Destroy(this.gameObject);
-        }
+             if (collision.gameObject.tag == "Player")
+             {
+                AudioSource.PlayClipAtPoint(audioFX, gameObject.transform.position);
+                     if (audioFX == true)
+                      {
+                          Destroy(this.gameObject);
+                      }
+             }
+        
     }
 }
