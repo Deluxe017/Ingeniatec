@@ -190,9 +190,7 @@ MonoBehaviour:
   controladorSuelo: {fileID: 804352553458918814}
   dimensionesCaja: {x: 0.4, y: 0.4, z: 1}
   enSuelo: 1
-  _amplitud: 0.2
-  _frecuencia: 3.5
-  Salto_A: {fileID: 0}
+  audioFX: {fileID: 8300000, guid: 823df8f61bbfd7a498705d51f42225e2, type: 3}
 --- !u!95 &804352553980835481
 Animator:
   serializedVersion: 4
