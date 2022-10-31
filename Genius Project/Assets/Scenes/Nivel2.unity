@@ -468,6 +468,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400427909}
     m_Modifications:
+    - target: {fileID: 3806644088187717968, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5208850834628084260, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
       propertyPath: m_Name
       value: objetos1_1 (5)
@@ -2034,6 +2038,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400427909}
     m_Modifications:
+    - target: {fileID: 3806644088187717968, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5208850834628084260, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
       propertyPath: m_Name
       value: objetos1_1 (3)
@@ -5449,6 +5457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400427909}
     m_Modifications:
+    - target: {fileID: 3806644088187717968, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5208850834628084260, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
       propertyPath: m_Name
       value: objetos1_1 (1)
@@ -6167,6 +6179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400427909}
     m_Modifications:
+    - target: {fileID: 3806644088187717968, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5208850834628084260, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
       propertyPath: m_Name
       value: objetos1_1 (4)
@@ -9820,6 +9836,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3806644088187717968, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5208850834628084260, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
       propertyPath: m_Name
       value: objetos1_1
@@ -12238,6 +12258,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400427909}
     m_Modifications:
+    - target: {fileID: 3806644088187717968, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5208850834628084260, guid: b06a5480939fb0c4d85e6d21524a7cc7, type: 3}
       propertyPath: m_Name
       value: objetos1_1 (2)

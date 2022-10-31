@@ -5,6 +5,7 @@ public class Muros : MonoBehaviour
 {
     public GameObject muros;
     public static Muros instance;
+ 
 
     private void Awake()
     {
@@ -22,5 +23,8 @@ public class Muros : MonoBehaviour
     public void Activator()
     {
         muros.SetActive(true);
+        
+
+
     }
 }
