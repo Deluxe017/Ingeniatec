@@ -22,7 +22,10 @@ public class Move : MonoBehaviour
 
     public AudioClip audioFX;
 
-    private bool Salto = false;
+    internal bool Salto = false;
+
+    public ControlType controlType;
+    internal float joystickValue;
 
 
     private void Start()
@@ -31,12 +34,18 @@ public class Move : MonoBehaviour
     }
     private void Update()
     {
-        movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
+        if (controlType == ControlType.keyboard)
+        {
+            movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
+        }
+        else
+        {
+            movimientoHorizontal = joystickValue * velocidadMovimiento;
+        }
 
         if (Input.GetButtonDown("Jump"))
         {
             Salto = true;
-            AudioSource.PlayClipAtPoint(audioFX, gameObject.transform.position);
         }
     }
     private void FixedUpdate()
@@ -64,6 +73,7 @@ public class Move : MonoBehaviour
         {
             enSuelo = false;
             rg2D.AddForce(new Vector2(0f, fuerzaSalto));
+            AudioSource.PlayClipAtPoint(audioFX, gameObject.transform.position);
         }
     }
     private void Girar()
@@ -77,6 +87,12 @@ public class Move : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
+    }
+
+    public enum ControlType
+    {
+        keyboard,
+        Touch
     }
 }
 
