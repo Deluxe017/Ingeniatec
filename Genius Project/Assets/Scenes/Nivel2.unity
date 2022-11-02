@@ -5990,7 +5990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fed935ab1244c3c4fb5d833180092458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  win: Jesus Scene
+  win: Win
 --- !u!212 &720762294
 SpriteRenderer:
   m_ObjectHideFlags: 0
