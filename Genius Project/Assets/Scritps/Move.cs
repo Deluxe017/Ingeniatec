@@ -44,7 +44,7 @@ public class Move : MonoBehaviour
         }
 
         if (Input.GetButtonDown("Jump"))
-        {
+        {         
             Salto = true;
         }
     }

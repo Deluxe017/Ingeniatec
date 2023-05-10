@@ -9,7 +9,10 @@ public class ObjetosPerder : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(this.Scene_);
+        if (collision.gameObject.tag == ("Player"))
+            {
+            SceneManager.LoadScene(this.Scene_);
+            }
     }
 }
   
