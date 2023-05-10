@@ -240,19 +240,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Semillero Sipaem\nCentro de servicios y gesti\xF3n empresarial\n\n\n\n\nInstructors:\n\nEsteban
-    DLeon\nFredy Espinosa\nFredy Gallego\nHernan Giovanny Perez\nOskar Leonardo Beltran\n\n\n\nDevelopers:\n\nAbraham
+  m_text: "Semillero Sipaem\nCentro de servicios y gesti\xF3n empresarial\n\n\n\n\nInstructors:\n\nFredy
+    Espinosa\nFredy Gallego\nEsteban DLeon\nOskar Leonardo Beltran\n\n\n\nDevelopers:\n\nAbraham
     David Hern\xE1ndez\nEvelyn Monta\xF1o\nJes\xFAs David Arrieta Herazo\nJuli\xE1n
-    David Espinosa\nStuart C\xE1rdenas Duarte\n\n\n\nProgrammers:\n\nAbraham David
-    Hern\xE1ndez\nJes\xFAs David Arrieta Herazo\nJuli\xE1n David Espinosa\nStuart
-    C\xE1rdenas Duarte\n\n\n\nArt:\n\nEsteban DLeon\nFredy Gallego\nOskar Leonardo
-    Beltran\n\n\n\nLevel designer:\n\nJes\xFAs David Arrieta Herazo\nRicardo Antonio
-    Cantillo Vizcaino\n\n\n\nAnimations:\n\nJuli\xE1n David Espinosa\n\n\n\nUser
-    Interface:\n\nDaniel Catrill\xF3n \xC1ngel\nEvelyn Monta\xF1o\n\n\n\n\nSounds:\n\nDaniel
-    Catrill\xF3n \xC1ngel\nRicardo Antonio Cantillo Vizcaino\n\n"
+    David Espinosa\nGuiseppe samid quintero restrepo\nStuart C\xE1rdenas Duarte\n\n\n\nProgrammers:\n\nAbraham
+    David Hern\xE1ndez\nJes\xFAs David Arrieta Herazo\nJuli\xE1n David Espinosa\nStuart
+    C\xE1rdenas Duarte\n\n\n\nArt:\n\nFredy Gallego\nEsteban DLeon\nOskar Leonardo
+    Beltran\n\n\n\nLevel designer:\n\nJes\xFAs David Arrieta Herazo\n\n\n\nAnimations:\n\nJuli\xE1n
+    David Espinosa\n\n\n\nUser Interface:\n\nEvelyn Monta\xF1o\n\n\n\nSounds:\n\nGuiseppe
+    Samid Quintero Restrepo"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4331f4984a2281e4885c940254f69b4e, type: 2}
-  m_sharedMaterial: {fileID: 7176896357572481446, guid: 4331f4984a2281e4885c940254f69b4e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ce2aec7afc7096143a4034c1188a03f9, type: 2}
+  m_sharedMaterial: {fileID: -5718189651286788939, guid: ce2aec7afc7096143a4034c1188a03f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -388,8 +387,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4331f4984a2281e4885c940254f69b4e, type: 2}
-  m_sharedMaterial: {fileID: 7176896357572481446, guid: 4331f4984a2281e4885c940254f69b4e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1449428e05012e34b8c3be56f2f3f722, type: 2}
+  m_sharedMaterial: {fileID: 1580193463150048569, guid: 1449428e05012e34b8c3be56f2f3f722, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -413,8 +412,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -921,6 +920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
